@@ -4,7 +4,7 @@ UC Berkeley CS 188: Introduction to Artificial Intelligence, Spring 2020
 ## Overview
 This is an implementation of various search algorithms for the Pacman Search project from UC Berkeley's CS 188: Introduction to Artificial Intelligence course. The project focuses on implementing graph search algorithms to help Pacman navigate mazes and find optimal paths to goals.
 
-Project Description
+## Project Description
 In this project, Pacman must find paths through mazes to reach particular locations and collect food efficiently. The project implements general search algorithms including:
 
 Depth-First Search (DFS)
@@ -13,13 +13,14 @@ Uniform Cost Search (UCS)
 A Search*
 
 These algorithms are tested on various maze configurations and search problems, demonstrating different pathfinding strategies and their efficiency trade-offs.
-Files
+
+## Files
 Core Implementation Files
 
 search.py - Contains implementations of search algorithms (DFS, BFS, UCS, A*)
 searchAgents.py - Contains search-based agents and problem definitions
 
-Supporting Files (Provided by UC Berkeley)
+Supporting Files
 
 pacman.py - Main file that runs Pacman games
 game.py - Logic for the Pacman world (agents, game states, directions)
@@ -65,7 +66,7 @@ Optimal if heuristic is admissible and consistent
 
 
 
-Search Problems
+## Search Problems
 
 Position Search Problem - Find path to specific location
 Corners Problem - Visit all four corners of maze
@@ -76,13 +77,13 @@ Running Basic Search Algorithms
 bash# Run DFS on tiny maze
 python pacman.py -l tinyMaze -p SearchAgent -a fn=depthFirstSearch
 
-# Run BFS on medium maze
+### Run BFS on medium maze
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 
-# Run UCS on medium maze
+### Run UCS on medium maze
 python pacman.py -l mediumMaze -p SearchAgent -a fn=ucs
 
-# Run A* with Manhattan heuristic
+### Run A* with Manhattan heuristic
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 Testing Eight Puzzle
 bashpython eightpuzzle.py
@@ -126,7 +127,8 @@ h(n) ≤ h*(n)  (where h* is the true cost)
 A heuristic is consistent if:
 ```
 h(n) ≤ cost(n, n') + h(n')  (for all successors n' of n)
-Educational Value
+
+## Educational Value
 This project teaches:
 
 Implementation of classic search algorithms
