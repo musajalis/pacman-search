@@ -1,7 +1,7 @@
 # Pacman Search Project
 UC Berkeley CS 188: Introduction to Artificial Intelligence, Spring 2020
 
-Overview
+## Overview
 This is an implementation of various search algorithms for the Pacman Search project from UC Berkeley's CS 188: Introduction to Artificial Intelligence course. The project focuses on implementing graph search algorithms to help Pacman navigate mazes and find optimal paths to goals.
 
 Project Description
