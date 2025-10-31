@@ -1,4 +1,4 @@
-# Pacman Search Project
+# Pacman Search Project: Search Algorithm Agent Optimization
 UC Berkeley CS 188: Introduction to Artificial Intelligence, Spring 2020
 
 ## Overview
